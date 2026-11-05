@@ -1,0 +1,51 @@
+:root{
+    /* brand colors - navy + yellow*/
+   --color-navy: #14233f;
+  --color-navy-light: #1d3257;
+  --color-yellow: #fcc200;
+  --color-yellow-dark: #e0ad00;
+   --color-yellow-text: #8f6800;
+  --color-red: #c62828;
+  --color-red-dark: #8e0000;
+  --color-gold: #c9a227;
+
+    /*neutrals*/
+ --color-black: #111111;
+  --color-white: #ffffff;
+  --color-offwhite: #f7f5f2;
+  --color-border: #e3e0da;
+  /*Text*/
+   --color-text: #1e1e1e;
+  --color-text-muted: #5a5a5a;
+  --color-text-on-dark: #f2f2f2;
+
+  /*Typograaphy*/
+  --font-heading: "Poppins", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: clamp(1.5rem, 1.2rem + 1.5vw, 2rem);
+  --text-hero: clamp(2rem, 1.4rem + 3vw, 3.5rem);
+
+  /*spacing scale*/
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 4rem;
+
+  /*shadow shape layout*/
+   --radius: 12px;
+  --radius-pill: 999px;
+  --shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  --container: 1150px;
+  --transition: 0.2s ease;
+
+  /*logo colors*/
+--color-logo-blue: #0038b8;
+  --color-logo-red: #d80000;
+} 
+

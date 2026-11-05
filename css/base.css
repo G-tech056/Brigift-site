@@ -1,0 +1,106 @@
+/*Reset*/ 
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+/*html and body*/
+html{
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    line-height: 1.6;
+    color: var(--color-text);
+    background: var(--color-white);
+    --webkit-font-smoothing: antialiased;
+
+}
+
+main {
+  flex: 1;
+}
+
+
+/*media and form elements*/
+img,
+picture,
+svg{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+
+
+/*Typography*/
+h1,
+h2,
+h3,
+h4{
+    font-family: var(--font-heading);
+    line-height: 1.2;
+    color: var(--color-navy);
+}
+
+h1{font-size: var(--text-hero);}
+h2{font-size: var(--text-xl);}
+h3{font-size: var(--text-lg);}
+
+a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+/*layout managers*/
+.container{
+    width: min(100% - 2rem, var(--container));
+    margin-inline: auto;
+
+}
+
+.section{
+    padding-block: var(--space-6);
+
+}
+
+.section--alt{
+    background: var(--color-offwhite);
+}
+
+
+/*Accessibility*/
+:focus-visible{
+    outline: 3px solid var(--color-yellow);
+    outline-offset: 3px;
+}
+@media(prefers-reduced-motion: reduce ){
+    html{
+        scroll-behavior: auto;
+    }
+}

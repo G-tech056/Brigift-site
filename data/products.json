@@ -1,0 +1,209 @@
+{
+  "lastUpdated": "3 November 2026",
+  "products": [
+    {
+      "id": "afrigas-6kg",
+      "name": "Afrigas 6KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Compact cylinder for everyday home cooking.",
+      "prices": {
+        "refill": null,
+        "exchange": 1510,
+        "new": null
+      },
+      "image": "images/products/afrigas-6kg.webp"
+    },
+    {
+      "id": "afrigas-13kg",
+      "name": "Afrigas 13KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Family-size cylinder for the whole household.",
+      "prices": {
+        "refill": null,
+        "exchange": 3400,
+        "new": null
+      },
+      "image": "images/products/afrigas-13kg.webp"
+    },
+    {
+      "id": "afrigas-25kg",
+      "name": "Afrigas 25KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Large cylinder for busy kitchens and small businesses.",
+      "prices": {
+        "refill": null,
+        "exchange": 5500,
+        "new": null
+      },
+      "image": "images/products/afrigas-25kg.webp"
+    },
+    {
+      "id": "kgas-6kg",
+      "name": "K-Gas 6KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Compact cylinder for everyday home cooking.",
+      "prices": {
+        "refill": null,
+        "exchange": 1420,
+        "new": null
+      },
+      "image": "images/products/kgas-6kg.webp"
+    },
+    
+    {
+      "id": "kgas-13kg",
+      "name": "K-Gas 13KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Family-size cylinder for the whole household.",
+      "prices": {
+        "refill": null,
+        "exchange": 3400,
+        "new": null
+      },
+      "image": "images/products/kgas-13kg.webp"
+    },
+    {
+      "id": "mpishi-6kg",
+      "name": "Ola Energy Mpishi 6KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Compact cylinder for everyday home cooking.",
+      "prices": {
+        "refill": null,
+        "exchange": 1200,
+        "new": null
+      }
+    },
+    {
+      "id": "mpishi-13kg",
+      "name": "Ola Energy Mpishi 13KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Family-size cylinder for the whole household.",
+      "prices": {
+        "refill": null,
+        "exchange": null,
+        "new": null
+      },
+      "image": "images/products/mpishi-13kg.webp"
+    },
+    {
+      "id": "progas-6kg",
+      "name": "Pro Gas 6KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Compact cylinder for everyday home cooking.",
+      "prices": {
+        "refill": null,
+        "exchange": null,
+        "new": null
+      },
+      "image": "images/products/progas-6kg.webp"
+    },
+    {
+      "id": "progas-13kg",
+      "name": "Pro Gas 13KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Family-size cylinder for the whole household.",
+      "prices": {
+        "refill": null,
+        "exchange": null,
+        "new": null
+      },
+      "image": "images/products/progas-13kg.webp"
+    },
+    
+    {
+      "id": "totalenergies-6kg",
+      "name": "TotalEnergies 6KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Compact cylinder for everyday home cooking.",
+      "prices": {
+        "refill": null,
+        "exchange": 1510,
+        "new": null
+      },
+      "image":"images/products/totalenergies-6kg.webp"
+    },
+    {
+      "id": "totalenergies-13kg",
+      "name": "TotalEnergies 13KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Family-size cylinder for the whole household.",
+      "prices": {
+        "refill": null,
+        "exchange": 3400,
+        "new": null
+      }
+    },
+    {
+      "id": "totalenergies-50kg",
+      "name": "TotalEnergies 50KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Extra-large cylinder for commercial use and large kitchens.",
+      "prices": {
+        "refill": null,
+        "exchange": 12000,
+        "new": null
+      },
+      "image": "images/products/totalgaz-large.webp"
+    },
+    {
+      "id": "hashi-6kg",
+      "name": "Hashi Gas 6KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Compact cylinder for everyday home cooking.",
+      "prices": {
+        "refill": null,
+        "exchange": null,
+        "new": null
+      },
+      "image": "images/products/hashi-6kg.webp"
+    },
+    {
+      "id": "hashi-13kg",
+      "name": "Hashi Gas 13KG LPG Cylinder",
+      "category": "lpg",
+      "description": "Family-size cylinder for the whole household.",
+      "prices": {
+        "refill": null,
+        "exchange": null,
+        "new": null
+      },
+      "image": "images/products/hashi-13kg.webp"
+    },
+    {
+      "id": "gas-regulator",
+      "name": "Gas Regulator",
+      "category": "accessories",
+      "description": "Controls gas flow from the cylinder to your cooker.",
+      "prices": {
+        "standard": null
+      }
+    },
+    {
+      "id": "gas-hose",
+      "name": "Gas Hose",
+      "category": "accessories",
+      "description": "Durable hose for connecting a cylinder to a cooker or burner.",
+      "prices": {
+        "standard": null
+      }
+    },
+    {
+      "id": "led-bulb",
+      "name": "LED Bulb",
+      "category": "electrical",
+      "description": "Energy-saving bulb for the home or shop.",
+      "prices": {
+        "standard": null
+      }
+    },
+    {
+      "id": "extension-cable",
+      "name": "Extension Cable",
+      "category": "electrical",
+      "description": "Multi-socket extension cable for appliances.",
+      "prices": {
+        "standard": null
+      }
+    }
+  ]
+}
