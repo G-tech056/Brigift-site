@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "254183562384";
+const WHATSAPP_NUMBER = "254795709485";
 
 const productGrid = document.getElementById("product-grid");
 const lastUpdated = document.getElementById("last-updated");
@@ -36,6 +36,12 @@ function getOptions(product) {
 }
 
 function whatsappLink(product, optionKey) {
+  // switches and other on-request items: the customer finishes the sentence with their model
+  if (product.onRequest) {
+    const requestMessage = `Hello BRIGIFT, I'm interested in the ${product.name}. The model I'd like is: `;
+    return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(requestMessage)}`;
+  }
+
   const price = optionKey ? product.prices[optionKey] : null;
   const priceText = price !== null && price !== undefined ? ` (${formatPrice(price)})` : "";
 
@@ -53,11 +59,14 @@ function createCard(product) {
   const info = categoryInfo[product.category];
   const options = getOptions(product);
   const selected = options[0];
+  const onRequest = Boolean(product.onRequest);
 
-  const hasPhoto = Boolean(product.image);
+   const hasPhoto = Boolean(product.image);
+  const placeholder = `images/placeholders/${product.category}.svg`;
   const media = hasPhoto
-    ? `<img src="${product.image}" alt="${product.name}" width="600" height="450" loading="lazy" />`
-    : `<span aria-hidden="true">${info.icon}</span>`;
+    ? `<img src="${product.image}" alt="${product.name}" width="600" height="450" loading="lazy"
+         onerror="this.onerror=null;this.src='${placeholder}';" />`
+    : `<img src="${placeholder}" alt="" width="600" height="450" loading="lazy" />`;
 
   const selector =
     options.length > 1
@@ -71,12 +80,23 @@ function createCard(product) {
         </div>`
       : "";
 
-  const priceHtml = selected
-    ? `<p class="product-price">
+  let priceHtml;
+  if (onRequest) {
+    priceHtml = `<p class="product-price is-call">Available on request</p>`;
+  } else if (selected) {
+    priceHtml = `<p class="product-price">
          <span class="price-label">${priceLabels[selected.key]}</span>
          <span class="price-amount">${formatPrice(selected.price)}</span>
-       </p>`
-    : `<p class="product-price is-call">Call for price</p>`;
+       </p>`;
+  } else {
+    priceHtml = `<p class="product-price is-call">Call for price</p>`;
+  }
+
+  const sheetLink = product.sheet
+    ? `<a href="${product.sheet}" class="sheet-link" target="_blank" rel="noopener">View all models (full catalogue sheet)</a>`
+    : "";
+
+  const buttonText = onRequest ? "Choose on WhatsApp" : "Order on WhatsApp";
 
   return `
     <article class="product-card" data-id="${product.id}">
@@ -88,10 +108,11 @@ function createCard(product) {
         <div class="price-area">
           ${selector}
           ${priceHtml}
+          ${sheetLink}
         </div>
         <a href="${whatsappLink(product, selected ? selected.key : null)}"
            class="btn btn--primary order-link" target="_blank" rel="noopener">
-          Order on WhatsApp
+          ${buttonText}
         </a>
       </div>
     </article>

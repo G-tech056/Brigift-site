@@ -131,7 +131,8 @@
         "refill": null,
         "exchange": 3400,
         "new": null
-      }
+      },
+      "image": "images/products/totalenergies-13kg.webp"
     },
     {
       "id": "totalenergies-50kg",
@@ -176,7 +177,8 @@
       "description": "Controls gas flow from the cylinder to your cooker.",
       "prices": {
         "standard": null
-      }
+      },
+      "image": "images/products/gas-regulator.webp"
     },
     {
       "id": "gas-hose",
@@ -187,6 +189,16 @@
         "standard": null
       }
     },
+     {
+      "id": "gas-grill",
+      "name": "Gas Grill Stand",
+      "category": "accessories",
+      "description": "Sturdy metal stand for cooking over a gas burner.",
+      "prices": {
+        "standard": null
+      },
+      "image": "images/products/gas-grill.webp"
+    },
     {
       "id": "led-bulb",
       "name": "LED Bulb",
@@ -194,7 +206,8 @@
       "description": "Energy-saving bulb for the home or shop.",
       "prices": {
         "standard": null
-      }
+      }, "image": "images/products/led-bulb.webp"
+
     },
     {
       "id": "extension-cable",
@@ -203,7 +216,80 @@
       "description": "Multi-socket extension cable for appliances.",
       "prices": {
         "standard": null
-      }
+      },
+       "image": "images/products/extension-cable.webp"
+
+    }, 
+      {
+      "id": "alux-cooker-unit-white",
+      "name": "A-Lux Cooker Control Unit (White)",
+      "category": "electrical",
+      "description": "Cooker control unit with switched socket, in white with gold trim.",
+      "prices": {
+        "standard": null
+      },
+      "image": "images/products/alux-cooker-unit-white.webp"
+    },
+    {
+      "id": "alux-cooker-unit-gold",
+      "name": "A-Lux Cooker Control Unit (Gold)",
+      "category": "electrical",
+      "description": "Cooker control unit with switched socket, in a gold finish.",
+      "prices": {
+        "standard": null
+      },
+      "image": "images/products/alux-cooker-unit-gold.webp"
+    },
+    {
+      "id": "alux-slim-switch-white",
+      "name": "A-Lux 2-Gang Slim Switch (White)",
+      "category": "electrical",
+      "description": "Two-gang slim wall switch in white with gold-finish rockers.",
+      "prices": {
+        "standard": null
+      },
+      "image": "images/products/alux-slim-switch-white.webp"
+    },
+
+     {
+      "id": "switch-socket-white",
+      "name": "Switches and Sockets, White Range",
+      "category": "electrical",
+      "description": "Choose the switch or socket you like from the full catalogue sheet, then message us on WhatsApp with the model you want. We bring these in on request and will confirm availability and price.",
+      "prices": {
+        "standard": null
+      },
+      "image": "images/products/switch-socket-white.webp",
+      "onRequest": true,
+      "sheet": "images/catalogues/switches-white.webp"
+    },
+    {
+      "id": "switch-socket-black",
+      "name": "Switches and Sockets, Black Range",
+      "category": "electrical",
+      "description": "Choose the switch or socket you like from the full catalogue sheet, then message us on WhatsApp with the model you want. We bring these in on request and will confirm availability and price.",
+      "prices": {
+        "standard": null
+      },
+      "image": "images/products/switch-socket-black.webp",
+      "onRequest": true,
+      "sheet": "images/catalogues/switches-black.webp"
+    },
+    {
+      "id": "switch-socket-gold",
+      "name": "Switches and Sockets, Gold Range",
+      "category": "electrical",
+      "description": "Choose the switch or socket you like from the full catalogue sheet, then message us on WhatsApp with the model you want. We bring these in on request and will confirm availability and price.",
+      "prices": {
+        "standard": null
+      },
+      "image": "images/products/switch-socket-gold.webp",
+      "onRequest": true,
+      "sheet": "images/catalogues/switches-gold.webp"
     }
+
+
+    
+
   ]
 }
